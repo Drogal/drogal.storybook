@@ -137,3 +137,6 @@ dist
 
 *storybook.log
 storybook-static
+
+# formato da imagem
+.tar
