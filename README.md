@@ -1,5 +1,5 @@
 # Para construir a imagem
-docker build --no-cache -t drogal-story-book .
+docker build --no-cache --platform linux/amd64 -t drogal-story-book .
 
 # GERAR TAG DA IMAGEM
 docker tag drg/drogal-story-book:latest 179095145246.dkr.ecr.sa-east-1.amazonaws.com/drg/drogal-story-book:latest

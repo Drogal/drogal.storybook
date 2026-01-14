@@ -34,5 +34,11 @@ export default defineConfig({
         setupFiles: ['.storybook/vitest.setup.ts']
       }
     }]
+  },
+  build:{
+    minify:'terser',
+    terserOptions:{
+      keep_fnames:true
+    }
   }
 });
