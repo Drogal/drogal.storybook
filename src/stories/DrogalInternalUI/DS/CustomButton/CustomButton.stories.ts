@@ -1,16 +1,15 @@
 import type { Meta, StoryObj } from '@storybook/react-vite';
 
-import { TabView } from 'drogal.internal.ui';
-import 'drogal.internal.ui/theme.css';
+import CustomButton from './customButton';
 
 const meta = {
-  title: 'Drogal Internal UI/DS/TabView',
-  component: TabView,
+  title: 'Drogal Internal UI/DS/CustomButton',
+  component: CustomButton,
   parameters: {
     layout: 'centered',
   },
   tags: ['autodocs'],
-} satisfies Meta<typeof TabView>;
+} satisfies Meta<typeof CustomButton>;
 
 export default meta;
 type Story = StoryObj<typeof meta>;
