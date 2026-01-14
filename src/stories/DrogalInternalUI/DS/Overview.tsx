@@ -1,6 +1,5 @@
 import React from 'react';
 import './overview.css';
-import { Button } from './Button/Button';
 import { InputText } from './InputText/InputText';
 import { InputNumber } from './InputNumber/InputNumber';
 import { InputTextArea } from './InputTextArea/InputTextArea';
@@ -21,6 +20,7 @@ import { Avatar } from './Avatar/Avatar';
 import { Badge } from './Badge/Badge';
 import { Skeleton } from './Skeleton/Skeleton';
 import { TabMenu } from './TabMenu/TabMenu';
+import { Button } from 'drogal.internal.ui';
 
 export const Overview: React.FC = () => {
 
